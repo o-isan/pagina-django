@@ -19,4 +19,5 @@
 <p>Se creó como proyecto didáctico para el módulo de Lenguajes de marcado y Sistemas de Gestión de información.</p>
 <p>Del ciclo formativo de grado superior: Desarrollo de Aplicaciones Web.</p>
 
-<iframe src="https://oscariglsan.pythonanywhere.com/" style="border:0px #ffffff none;" name="myiFrame" scrolling="no" frameborder="1" marginheight="0px" marginwidth="0px" height="400px" width="600px" allowfullscreen></iframe>
+<p>El sitio web es:</p>
+<p><a href="https://oscariglsan.pythonanywhere.com">www.oscariglsan.pythonanywhere.com</a></p>
