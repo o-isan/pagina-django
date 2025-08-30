@@ -1,5 +1,5 @@
 # Portfolio con Django 
-Más que un porttfolio se trata de una práctica en la que tuve que elaborar un sitio web sobre las distintas materias del primer curso de DAW.
+Más que un portafolio se trata de una práctica en la que tuve que elaborar un sitio web sobre las distintas materias del primer curso de DAW.
 
 Hice el sitio web en python con Django.
 
@@ -40,7 +40,6 @@ Además con el buscador puedes buscar artículos de cualquier categoría.
 https://oscariglsan.pythonanywhere.com
 
 
-
 ## Muestras del código:
 
 **urls.py**
@@ -69,12 +68,6 @@ En este caso tengo las clases: Usuario, Categoria y Articulo.
 **settings.py**
 En producción la bandera debug debe ser False, e importante incluir la app django en la lista INSTALLED_APPS
 ![settings](img/14.png)
-
-
-## Añadir nuevos artículos.
-Django incluye su propio panel de administración.
-Por cuestiones de tiempo para esta práctica usé este panel que django ofrece para introducir artículos.
-
 
 
 
