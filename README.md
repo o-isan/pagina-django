@@ -17,7 +17,7 @@ Además con el buscador puedes buscar artículos de cualquier categoría.
 
 
 **Artículos**
-![Listado de artículos](img/4.png)
+![Listado de artículos](img/5.png)
 
 
 **Certificados**
