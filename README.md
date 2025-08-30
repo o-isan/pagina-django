@@ -1,23 +1,83 @@
-# Mi página web hecha con Django.
+# Portfolio con Django 
+Más que un porttfolio se trata de una práctica en la que tuve que elaborar un sitio web sobre las distintas materias del primer curso de DAW.
 
-<h2>Ejemplo de portafolio con temario, proyectos y certificaciones</h2>
+Hice el sitio web en python con Django.
 
-<p>Incluye: </p>
-<ul>
+La lógica principal consta de categorías en las que hay artículos que hablan sobre una materia. Siendo cada categoría una materia del curso.
 
-  <li>Artículos</li>
-  <li>Categorias</li>
-  <li>Página de aterrizaje</li>
-  <li>Buscador del sitio</li>
-  <li>Formulario de contacto</li>
-  <li>Menú en la cabecera</li>
-  <li>Pie de página</li>
-  
-</ul>
+Además con el buscador puedes buscar artículos de cualquier categoría.
 
-<p>entre otras cosas ...</p>
-<p>Se creó como proyecto didáctico para el módulo de Lenguajes de marcado y Sistemas de Gestión de información.</p>
-<p>Del ciclo formativo de grado superior: Desarrollo de Aplicaciones Web.</p>
+## Vistas del sitio web:
+**Inicio**
+![Parte superior de Inicio](img/1.png)
+![Parte central](img/2.png)
 
-<p>El sitio web es:</p>
-<p><a href="https://oscariglsan.pythonanywhere.com">www.oscariglsan.pythonanywhere.com</a></p>
+**Categorías**
+![Listado de categorías](img/4.png)
+
+
+**Artículos**
+![Listado de artículos](img/4.png)
+
+
+**Certificados**
+![Certificaciones](img/6.png)
+
+
+**Contacto**
+![Contacto](img/7.png)
+
+
+**Ejemplo de artículo completo**
+![Ejemplo de artículo completo](img/5.png)
+
+
+**Uso de la búsqueda**
+![Uso de la herramienta búsqueda](img/8.png)
+
+
+## URL del sitio:
+https://oscariglsan.pythonanywhere.com
+
+
+
+## Muestras del código:
+
+**urls.py**
+Archivo donde se especifica que vista, endpoint... etc corresponde a cada url
+![urls](img/9.png)
+
+
+**models.py - ORM de Django**
+Especifico que tablas y columnas debe tener la BBDD mediante clases y atributos.
+En este caso tengo las clases: Usuario, Categoria y Articulo.
+![orm](img/10.png)
+
+
+**views.py**
+![views](img/11.png)
+
+
+**plantilla: categorías**
+![plantilla categorias](img/12.png)
+
+
+**plantilla: búsqueda**
+![plantilla búsqueda](img/13.png)
+
+
+**settings.py**
+En producción la bandera debug debe ser False, e importante incluir la app django en la lista INSTALLED_APPS
+![settings](img/14.png)
+
+
+## Añadir nuevos artículos.
+Django incluye su propio panel de administración.
+Por cuestiones de tiempo para esta práctica usé este panel que django ofrece para introducir artículos.
+
+
+
+
+
+
+
